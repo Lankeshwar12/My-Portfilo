@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Third portfilo website</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1b57ba4d36.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+
+    <div id="header">
+        <div class="container">
+            <nav>
+
+                <img src="logo.jpg"NIKKU class="logo">
+                <img src="logo2.png"NIKKU id="logo">
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfilo">Portfilo</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Nick</span> Kumar <br>From India</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!---About-- chalu hua hai-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1" data-aos="zoom-out-up">
+                    <img src="img3.jpg" alt="img">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My Name is Nick Kumar how are you i hope you are all fine. ipsum dolor sit amet consectetur
+                        adipisicing elit. Aut hic inventore placeat reprehenderit, eveniet veritatis. Fugiat quidem
+                        atque at suscipit esse sit delectus sed provident, ipsum, corporis minus, error ipsa enim! Unde
+                        incidunt corrupti consectetur nihil animi laboriosam pariatur eligendi aliquam velit, similique
+                        nam minima deleniti amet ut quasi odit.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skils')">Skills</p>
+                        <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('Education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skils">
+                        <ul>
+                            <li><span>App Developer</span><br>Desining web/App interface</li>
+
+                            <li><span>Web Developer</span><br>Web App interface</li>
+
+                            <li><span>Web Tester</span><br>Testing Web/App interface</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2024 Current </span><br>Desining web/App Training for Deogiri Institute</li>
+
+                            <li><span> 2022 2023</span><br>Team Lead for Hitech Company</li>
+
+                            <li><span>2019 2020</span><br>Intership at infosys Company</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2018</span><br>Web Development Training at Deogiri college</li>
+
+                            <li><span>2019</span><br>UI Desining training At deogiri college</li>
+
+                            <li><span>2021</span><br>Testing Web/App interface at Delhi University</li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------Services Chalu hua hai------>
+
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+
+                <div class="services-list">
+                    <div data-aos="fade-right">
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>I am Professional Web design consectetur adipisicing elit. Minus, ex. Dignissimos dolores eveniet fugiat rerum obcaecati quo error corporis enim voluptates sint numquam aut quae fuga deserunt quia architecto aliquam, vitae mollitia.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+
+                    <div data-aos="zoom-out-up">
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>App Design</h2>
+                        <p>I am Professional App Designer adipisicing elit. Minus, ex. Dignissimos dolores eveniet fugiat rerum obcaecati quo error corporis enim voluptates sint numquam aut quae fuga deserunt quia architecto aliquam, vitae mollitia pariatur.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+
+                    <div data-aos="fade-left">
+                        <i class="fa-solid fa-vial-virus"></i>
+                        <h2>Web Testing</h2>
+                        <p>I am Professional Web tester adipisicing elit. Minus, ex. Dignissimos dolores eveniet fugiat rerum obcaecati quo error corporis enim voluptates sint numquam aut quae fuga deserunt quia architecto aliquam, vitae mollitia pariatur.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+<!--------Portfilo chalu hua hai-->
+
+        <div id="portfilo">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work" data-aos="fade-left">
+                        <img src="wolverine.jpg" alt="">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, vero quaerat molestiae atque obcaecati temporibus?Lorem ipsum dolor sit.</p>
+                            <a href="#"><i class="fa-solid fa-star"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work"data-aos="fade-up">
+                        <img src="star-wars-.jpg" alt="">
+                        <div class="layer">
+                            <h3>Game App</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, vero quaerat molestiae atque obcaecati temporibus?Lorem ipsum dolor sit.</p>
+                            <a href="#"><i class="fa-brands fa-discord"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work"data-aos="fade-right">
+                        <img src="avatar-.jpg" alt="">
+                        <div class="layer">
+                            <h3>Online Shop App</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, vero quaerat molestiae atque obcaecati temporibus?Lorem ipsum dolor sit.</p>
+                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <a href="#" class="btn">See More</a>
+
+            </div>
+        </div>
+
+        <!----------Contact chalu hua hai-->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title"></i>Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>nick123@gmail.com.com</p>
+                        <p><i class="fa-solid fa-phone"></i>7796171193</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+
+                        <a href="joker.jpg"download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+
+      <input type="text" name="Name" placeholder="Your Name" required id="cost-name" data-aos="fade-right">
+      <input type="email" name="Email" placeholder="Your Email" required data-aos="fade-left">
+      <textarea name="Message"  rows="6" placeholder="Your message" data-aos="fade-right"></textarea>
+      <button type="submit" class="btn btn2" onclick="btn" data-aos="slide-down">Submit</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="submited">
+                <h1 style="color:red" id="submited-name"></h1>
+            </div>
+
+
+
+<!-- Footer chalu zhala aahe -->
+
+
+
+
+
+
+
+            <!-- <div class="copyright">
+                <p>Copyright &copy; Nick. Made With <i class="fa-solid fa-heart"></i> by Nick Private Limited Company</p>
+            </div>
+        </div> -->
+
+
+
+
+        <footer class="footer">
+            <div class="waves">
+              <div class="wave" id="wave1"></div>
+              <div class="wave" id="wave2"></div>
+              <div class="wave" id="wave3"></div>
+              <div class="wave" id="wave4"></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                   <ul>
+                    <li> <div class="logo"><a href="#">Nicki</a></div></li>
+                    <li><p>Yesterday is a history Tommarow is a Mistory But Today is gift So enjoy every movement</p></li>
+                   </ul>
+        
+                </div>
+                <div class="col">
+                    <ul>
+                        <li>+917796171193</li>
+                        <li>Nicki@gmail.com</li>
+                        <li>London,UK</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul>
+                        <li>About Nicki Industry</li>
+                        <li>Blog</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="social">
+                        <li>
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-instagram"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <p>&copy; 2024|| All Rights Reserved by Nick Kumar</p>
+          </footer>
+        
+
+
+
+
+      
+
+
+
+<!-- footer close zhala aahhe -->
+
+
+
+        <script src="script.js"></script>
+
+
+
+
+
+         <!-------scirpt 1)-->
+
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+
+       
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+
+        }
+       
+    </script>
+     <!-------scirpt 2)-->
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+  
+    </script>
+
+     <!-------scirpt 3)-->
+
+
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset: 300,
+    duration: 700
+  });
+</script>
+
+</body>
+
+</html>
